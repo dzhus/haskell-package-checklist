@@ -5,12 +5,14 @@
 - [ ] Travis badge
 - [ ] Hackage badge
 - [ ] packdeps badge
-- [ ] CHANGELOG.md is in extra-source-files
+- [ ] CHANGELOG.md and README.md are in extra-source-files
 - [ ] Branch protection enabled for master
 - [ ] Tests
 - [ ] Benchmarks
 - [ ] Doctests
-- [ ] Code examples in README
+- [ ] Code examples in README or markdown-unlit example
+- [ ] Hackage link in GitHub project URL
+- [ ] Hackage synopsis matches GitHub description
 
 # Making a release
 
