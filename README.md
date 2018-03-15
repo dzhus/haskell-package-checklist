@@ -1,20 +1,33 @@
-# Package maintenance
+# Haskell package maintenance checklist
 
-- [ ] -Wall and -Wcompat are enabled
-- [ ] Travis builds tests, haddocks and benchmarks, uses --pedantic
-- [ ] Travis badge
-- [ ] Hackage badge
-- [ ] packdeps badge
+## General considerations
+
+### `package.yaml`
+
 - [ ] CHANGELOG.md and README.md are in extra-source-files
-- [ ] Branch protection enabled for master
+- [ ] -Wall and -Wcompat are enabled
 - [ ] Tests
 - [ ] Benchmarks
 - [ ] Doctests
-- [ ] Code examples in README or markdown-unlit example
+
+### `README.md`
+
+- [ ] Travis badge
+- [ ] Hackage badge
+- [ ] packdeps badge
+- [ ] Code examples in README (possibly markdown-unlit example)
+
+### `.travis.yml`
+
+- [ ] Travis builds tests, haddocks and benchmarks, uses --pedantic
+
+### GitHub repo
+
+- [ ] Branch protection enabled for master
 - [ ] Hackage link in GitHub project URL
 - [ ] Hackage synopsis matches GitHub description
 
-# Making a release
+## Making a release
 
 - [ ] README and CHANGELOG look ok on GitHub
 - [ ] The latest CHANGELOG entry matches the new version
