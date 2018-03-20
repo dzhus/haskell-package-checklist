@@ -30,7 +30,7 @@
 ## Making a release
 
 - [ ] README and CHANGELOG look ok on GitHub
-- [ ] The latest CHANGELOG entry matches the new version
 - [ ] stack sdist
+- [ ] The latest CHANGELOG entry matches the new version
 - [ ] stack upload
 - [ ] Tag the head and push to master
