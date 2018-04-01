@@ -13,13 +13,23 @@
 ### `README.md`
 
 - [ ] Travis badge
-- [ ] Hackage badge
-- [ ] packdeps badge
+
+      [![Travis CI build status](https://travis-ci.org/user-name/repo-name.svg)](https://travis-ci.org/user-name/repo-name)
+
+- [ ] Hackage [badge][shields]
+
+      [![Hackage](https://img.shields.io/hackage/v/package-name.svg?colorB=5e5184&style=flat)](https://hackage.haskell.org/package/package-name)
+
+- [ ] packdeps [badge][shields]
+
+      [![Hackage deps](https://img.shields.io/hackage-deps/v/package-name.svg)](http://packdeps.haskellers.com/feed?needle=package-name)
+
 - [ ] Code examples in README (possibly [markdown-unlit][] example)
 
 ### `.travis.yml`
 
-- [ ] Travis builds tests, haddocks and benchmarks, uses --pedantic
+- [ ] [hlint][]
+- [ ] Travis builds tests, haddocks and benchmarks, uses `--pedantic`
 
 ### GitHub repo
 
@@ -39,8 +49,12 @@
 
 [changelog.md]: https://keepachangelog.com/en/1.0.0/
 
-[doctests]: https://github.com/sol/doctest
+[doctests]: https://github.com/sol/doctest#readme
 
-[doctest-discover]: https://github.com/karun012/doctest-discover
+[doctest-discover]: https://github.com/karun012/doctest-discover#readme
 
-[markdown-unlit]: https://github.com/sol/markdown-unlit
+[markdown-unlit]: https://github.com/sol/markdown-unlit#readme
+
+[hlint]: https://github.com/ndmitchell/hlint#running-with-continuous-integration
+
+[shields]: https://shields.io/
