@@ -7,7 +7,7 @@
 - [ ] [CHANGELOG.md][] and README.md are in extra-source-files
 - [ ] -Wall and [-Wcompat][] are enabled
 - [ ] [Doctests][]
-- [ ] Tests (with [doctest-discover][])
+- [ ] Tests (with [doctest-driver-gen][])
 - [ ] Benchmarks
 
 ### `README.md`
@@ -51,7 +51,7 @@
 
 [doctests]: https://github.com/sol/doctest#readme
 
-[doctest-discover]: https://github.com/karun012/doctest-discover#readme
+[doctest-driver-gen]: https://github.com/Hexirp/doctest-driver-gen#readme
 
 [markdown-unlit]: https://github.com/sol/markdown-unlit#readme
 
